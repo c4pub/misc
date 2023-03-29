@@ -11,6 +11,8 @@ deodel - csv eval
 # > TblUtil - begin
 # >- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+import validators
+
 class TblUtil :
 
     # >- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -134,7 +136,6 @@ class TblUtil :
     # >- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     @staticmethod
     def CheckIsUrl(in_url) :
-        import validators
         url_flag = validators.url(in_url)
         if not url_flag == True :
             return False
