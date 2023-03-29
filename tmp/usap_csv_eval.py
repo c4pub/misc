@@ -579,7 +579,7 @@ class TblUtil :
 # >- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # >- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-@staticmethod
+# @staticmethod
 def CvsProcProxy(*in_argv) :
     in_arg_no = len(in_argv)
     new_arg_no = 6
