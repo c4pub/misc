@@ -620,7 +620,7 @@ def PrintHelp(in_module) :
         return
 
 # >- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-@staticmethod
+# @staticmethod
 def Run(*in_argv) :
 
     import sys
