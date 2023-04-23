@@ -4,7 +4,7 @@ Deodel is almost non-parametric. Obviously, there are configuration adjustments 
 
 ## modules
 
-&nbsp;&nbsp;&nbsp;&nbsp; usap_cmp_binning.py
+&nbsp;&nbsp;&nbsp;&nbsp; * usap_cmp_binning.py
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Module that compares accuracy of the two modes of discretization: eq_freq vs eq_width.
 
@@ -12,7 +12,7 @@ Deodel is almost non-parametric. Obviously, there are configuration adjustments 
 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp; usap_csv_eval.py
+&nbsp;&nbsp;&nbsp;&nbsp; * usap_csv_eval.py
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Module that evaluates the predictability of a csv dataset.
 
