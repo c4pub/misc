@@ -1,5 +1,3 @@
----
-
 Deodel is almost non-parametric. Obviously, there are configuration adjustments that can be tuned through an optional dictionary structure specified at initialization. The main adjustment is the number of bins used to discretize numerical attributes. There is also By default it is set to three. It is also possible to choose the discretization method: "equal-width" vs "equal-frequency'. 
 
 ## modules
